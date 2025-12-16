@@ -4,7 +4,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-336791.svg)](https://postgresql.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -42,7 +41,7 @@ streamlit run streamlit_app.py
 ```
 RAG clinique/
 ├── data/
-│   └── Medical_book.pdf          # Source médicale (3000 pages)
+│   └── Medical_book.pdf          # Source médicale
 └── src/
     ├── rag_pipeline.py           # Pipeline RAG complet
     ├── rebuild_vectorstore.py    # Création index FAISS
@@ -99,5 +98,3 @@ python rag_pipeline.py          # Tests CLI
 Outil éducatif uniquement. Ne remplace pas un avis médical professionnel.
 
 ---
-
-**Développé avec ❤️ et 🤖** | [⭐ Star ce projet](https://github.com/votre-username/RAG-clinique)
